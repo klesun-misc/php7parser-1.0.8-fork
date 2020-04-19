@@ -1,4 +1,4 @@
-export enum TokenType {
+export declare enum TokenType {
     Unknown = 0,
     EndOfFile = 1,
     Abstract = 2,
@@ -160,9 +160,9 @@ export enum TokenType {
     CloseTag = 158,
     Comment = 159,
     DocumentComment = 160,
-    Whitespace = 161,
+    Whitespace = 161
 }
-export enum LexerMode {
+export declare enum LexerMode {
     Initial = 0,
     Scripting = 1,
     LookingForProperty = 2,
@@ -172,7 +172,7 @@ export enum LexerMode {
     EndHereDoc = 6,
     Backtick = 7,
     VarOffset = 8,
-    LookingForVarName = 9,
+    LookingForVarName = 9
 }
 export interface Token {
     tokenType: TokenType;

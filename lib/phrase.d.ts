@@ -1,5 +1,5 @@
 import { Token, TokenType } from './lexer';
-export enum PhraseType {
+export declare enum PhraseType {
     Unknown = 0,
     AdditiveExpression = 1,
     AnonymousClassDeclaration = 2,
@@ -181,7 +181,7 @@ export enum PhraseType {
     VariadicUnpacking = 178,
     WhileStatement = 179,
     YieldExpression = 180,
-    YieldFromExpression = 181,
+    YieldFromExpression = 181
 }
 export interface Phrase {
     phraseType: PhraseType;
