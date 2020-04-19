@@ -1,10 +1,10 @@
-/* Copyright (c) Ben Robert Mewburn 
+/* Copyright (c) Ben Robert Mewburn
  * Licensed under the ISC Licence.
  */
 
 'use strict';
 
-export const enum TokenType {
+export enum TokenType {
     //Misc
     Unknown,
     EndOfFile,
@@ -182,7 +182,7 @@ export const enum TokenType {
     Whitespace
 }
 
-export const enum LexerMode {
+export enum LexerMode {
     Initial,
     Scripting,
     LookingForProperty,
@@ -1055,7 +1055,7 @@ export namespace Lexer {
 
         //optional \ consumed
         //consume until unescaped "
-        //if ${LABEL_START}, ${, {$ found or no match return " and consume none 
+        //if ${LABEL_START}, ${, {$ found or no match return " and consume none
         ++s.position;
         let n = s.position;
         let c: string;

@@ -1,4 +1,4 @@
-/* Copyright (c) Ben Robert Mewburn 
+/* Copyright (c) Ben Robert Mewburn
  * Licensed under the ISC Licence.
  */
 
@@ -6,7 +6,7 @@
 
 import { Token, TokenType } from './lexer';
 
-export const enum PhraseType {
+export enum PhraseType {
     Unknown,
     AdditiveExpression,
     AnonymousClassDeclaration,

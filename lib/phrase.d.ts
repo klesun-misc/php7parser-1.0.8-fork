@@ -1,5 +1,5 @@
 import { Token, TokenType } from './lexer';
-export declare const enum PhraseType {
+export enum PhraseType {
     Unknown = 0,
     AdditiveExpression = 1,
     AnonymousClassDeclaration = 2,

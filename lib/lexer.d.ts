@@ -1,4 +1,4 @@
-export declare const enum TokenType {
+export enum TokenType {
     Unknown = 0,
     EndOfFile = 1,
     Abstract = 2,
@@ -162,7 +162,7 @@ export declare const enum TokenType {
     DocumentComment = 160,
     Whitespace = 161,
 }
-export declare const enum LexerMode {
+export enum LexerMode {
     Initial = 0,
     Scripting = 1,
     LookingForProperty = 2,
